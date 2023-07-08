@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  background-color: rgb(240, 243, 229) ;
+}
+
+/* Style the first navbar   */
+
+#first-navbar{
+  display: flex;
+  background-color:rgb(26, 72, 72);
+
+}
+
+/* Style the second navbar */
+
+#second-navbar{
+  background-color:burlywood;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#second-navbar li:hover{
+  color: white;
+}
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border-color: black;
+  background-color: burlywood;
+}
+
+/* Style the logo */
+.logo{
+  margin-left: 10px;
+  margin-right: 11pc;
+  font-size: 30px;
+  color:burlywood;
+  font-family:Delicious Handrawn,spartan,sans-serif;
+}
+.logo:hover{
+  color: rgb(188, 146, 91);
+}
+
+/* Style the search */
+#search{
+  display: flex;
+  padding: 4px ;
+}
+#search input{
+  padding: 10px;
+  width: 30vw;
+  border: 1px solid burlywood;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+}
+#search button{
+  border: 0px;
+  padding: 10px;
+  background-color: burlywood;
+  border-radius: 0;
+  border-top-right-radius: 10px;
+}
+#search .login :hover{
+background-color: rgb(188, 146, 91);
+}
+
+
+/* Style the login button */
+.login{
+  padding: 10px 15px 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: burlywood;
+  border: 2px solid black;
+ 
+}
+.login:hover{
+  background-color: rgb(188, 146, 91);
+}
+
+/* Style the cart button */
+.cart-icon{
+  color: burlywood;
+  font-size: 30px;
+}
+.cart-icon:hover{
+  color: rgb(188, 146, 91);
+}
+
+/* Style the tagline section*/
+.tagline-section{
+  margin-top: -16px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    background-image: url("../images/background2.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 50% left 80%;
+}
+
+/* Style the card */
+.card{
+  margin: 15px;
+  background-color: rgb(212, 214, 216);
+
+}
+
+
+
+
+/* Style the featured products section */
+.carousel {
+  background-color: rgb(233, 233, 233);
+  padding: 50px;
+}
+
+/* Style the section heading */
+.carousel h4 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  font-size: 40px;
+  font-family: cursive,sans-serif;
+}
+
+/* Style the carousel images */
+.carousel .carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Style the item title */
+.carousel .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the item price */
+.carousel .item-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the item description */
+.carousel .card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style all add to cart button */
+.card .btn-primary{
+  background-color: rgb(45, 71, 71);
+  border-color: burlywood;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.card .btn-primary:hover {
+  background-color: rgb(92, 121, 121);
+  border: 1px solid burlywood;
+}
+
+/* Style footer section */
+
+#footer{
+  padding: 12px;
+  background-color: rgb(26, 72, 72);
+}
+#footer li a{
+  color:white;
+
+}
+#footer li a:hover{
+  color:steelblue;
+
+}
+#footer h5{
+  color:burlywood;
+}
+
+
+/* login page styling*/
+
+
+.login-form {
+  max-width:500px;
+  margin:80px  auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+
+.btn-login{
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color:rgb(26, 72, 72);
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color:rgb(143, 175, 175);
+  
+}
+
+
+.dropdown-menu{
+  background-color: burlywood;
+}
+  
+
+.login-form{
+  background-color:rgb(188, 210, 188);
+}
+.section-title{
+  padding: 20px;
+  font-weight: bold;
+  font-family: cursive,sans-serif;
+}
+
+/* Style cart page*/
+
+.btn-checkout{
+
+  width: 100%;
+  height: 40px;
+  background-color:rgb(26, 72, 72);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-quantity{
+  background-color: rgb(26, 72, 72);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.cart-item-quantity input{
+  width: 30px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  .cart-icon{
+   display: flex;
+   flex-direction: column;
+   }
+   #search input{
+    width: 50%;
+  }
+ }
+ 
